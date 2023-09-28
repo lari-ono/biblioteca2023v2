@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8" />
-        <title>Editar Gênero/title>
-        <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+        <meta charset="UTF-8">
+        <title>Editar Gênero</title>
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -21,7 +21,7 @@
         <br/>
         
                         <a href ="/genero/list" class ="btn btn-primary">Voltar</a>
-                        <button type="submit" class="btn btn-sucess">Salvar</button>
+                        <button type="submit" class="btn btn-success">Salvar</button>
     </form>
     </div>
     </body>
