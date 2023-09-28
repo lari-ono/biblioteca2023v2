@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,16 +13,16 @@
         <form action = "/genero/update" method ="post">
             <input type="hidden" name="id" value ="${genero.id}">
             <div class= "form-group">
-            <label form="nome"> Nome: </label>
+            <label form="nome"> Nome:</label>
             <input type="text" name="nome" class="form-control" value="${genero.nome}">
 
         </div>
-        <br/>
+        <br>
         
-                        <a href ="/genero/list" class ="btn btn-primary">Voltar</a>
-                        <button type="submit" class="btn btn-success">Salvar</button>
-    </form>
-    </div>
+        <a href ="/genero/list" class ="btn btn-primary">Voltar</a>
+        <button type="submit" class="btn btn-success">Salvar</button>
+        </form>
+        </div>
     </body>
 </html>
 
