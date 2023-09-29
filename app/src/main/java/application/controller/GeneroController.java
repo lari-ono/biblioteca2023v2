@@ -59,7 +59,7 @@ public String update(@RequestParam("id") int id, @RequestParam("nome") String no
          genero.get().setNome(nome);
          generoRepo.save(genero.get());
     }
-    return "redirect:/genero/list";
+    return "/genero/list";
 }
 
 @RequestMapping("/delete")

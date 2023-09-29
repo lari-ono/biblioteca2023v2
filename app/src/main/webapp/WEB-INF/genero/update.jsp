@@ -10,7 +10,7 @@
     <body>
         <div class="container">
         <h1>Editar Gênero</h1>
-        <form action = "/genero/update" method ="post">
+        <form action = "/genero/update" method="post">
             <input type="hidden" name="id" value ="${genero.id}">
             <div class= "form-group">
             <label form="nome"> Nome:</label>
