@@ -43,7 +43,7 @@ public String insert(@RequestParam("nome") String nome){
 
     generoRepo.save(genero);
 
-    return "redirect:/genero/list";
+    return "/genero/list";
 }
 
 @RequestMapping("/update")
@@ -70,7 +70,7 @@ public String delete(Model model, @RequestParam("id") int id){
     model.addAttribute("genero", genero.get());
     return "/genero/delete";
 }
-return "redirect:/genero/list";
+return "/genero/list";
 }
 
 }
